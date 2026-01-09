@@ -1,0 +1,24 @@
+h2{
+    color:blue;
+    
+}
+.body{
+    color: black;
+    background-color: blueviolet;
+    margin: 20px;
+    border-color: pink;
+    border-width: 5px;
+}
+nav{
+    color: beige;
+    background-color:blue;
+    margin: 10px;
+}
+main{
+    color: brown;
+    border-color: black;
+}
+
+
+
+
