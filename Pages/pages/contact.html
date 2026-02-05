@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="../Styles/style.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
     
   </head>
   <body class="contact-body">
     <form class="contact" action="./index.html" method="get">
       <h2>Contact</h2>
       <label>Name </label>
-      <input type="text" placeholder="Enter Your Name" />
+      <input type="text" name="name" placeholder="Enter Your Name" />
       <label>Email </label>
-      <input type="text" placeholder="Enter Your Email" />
+      <input type="text" name="email" placeholder="Enter Your Email" />
       <label>Phone Number </label>
-      <input type="text" placeholder="Enter Your Phone Number" />
+      <input type="text" name="phone" placeholder="Enter Your Phone Number" />
       <label>Description</label>
       <textarea
+        name="description"
         cols="30"
         rows="10"
         placeholder="Write Your Description Here..."
@@ -27,14 +28,14 @@
     <a href="./index.html">
       <button class="button" id="home">Back to home</button>
     </a>
-  </body>
-  <div class="footer">
-        <a href="#">About us</a>
-        <a href="#">channels</a>
-        <a href="#">help center</a>
-        <a href="#">privacy policy</a>
-        <a href="#">Terms of use</a>
-        <a href="#">preferences</a>
-        <a href="#">do not share or sell my personal information</a>
+    <div class="footer">
+      <a href="#">About us</a>
+      <a href="#">channels</a>
+      <a href="#">help center</a>
+      <a href="#">privacy policy</a>
+      <a href="#">Terms of use</a>
+      <a href="#">preferences</a>
+      <a href="#">do not share or sell my personal information</a>
     </div>
+  </body>
 </html>
